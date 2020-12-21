@@ -31,7 +31,7 @@ public class Engineering{
    //area of a rectangle
    public int rect(){
        if(width == 0){
-           System.out.println("Error Message!");
+           System.out.println("Error: Cannot calculate area when width = 0");
            return -1;
        }
        return length * width;
